@@ -1,0 +1,115 @@
+@font-face{
+    font-family: Pokemon;
+    src: url('./PokemonSolid.ttf')
+}
+
+:root{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
+
+body{
+    background-image: url('./img/9f03c327-fba8-4f45-b651-ffcfc6273c59.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Pokemon;
+    color: rgb(255, 204, 0);
+    text-shadow: 5px 6px 2px black;
+    text-align: center;
+    font-size: 3rem;
+}
+
+table{
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+table td{
+    border: solid black 1px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+table td p{
+    text-align: center;
+}
+
+tr#con_imagen_fondo td{
+    height: 150px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+}
+
+tr#con_imagen_fondo p{
+    margin-top: 130px;
+}
+
+#charmander{
+    background-image: url('./img/charmeleon.png');
+}
+
+#charizard{
+    background-image: url('./img/charizard.png');
+}
+
+#squirtle{
+    background-image: url('./img/squirtle.png');
+}
+
+#wartortle{
+    background-image: url('./img/wartortle.png');
+}
+
+/* FORMULARIO */
+#formulario{
+    border: black solid 1px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin:auto;
+    width: 60%;
+    padding: 1rem;
+    color:white;
+}
+
+fieldset{
+    margin:auto;
+    width: 90%;
+    border-radius: 15px;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+.elemento{
+    text-align: center;
+}
+
+.elemento label, .elemento input{
+    display: inline-block;
+    width: 10rem;
+    text-align: left;
+}
+
+.enviar-borrar{
+    margin-top:20px;
+    text-align: center;
+}
+
+.enviar-borrar input{
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+
+
+

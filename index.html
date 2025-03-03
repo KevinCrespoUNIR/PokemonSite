@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Repaso</title>
+</head>
+
+<body>
+
+    <h1 id="pokedex">Pokedex</h1> <!-- --->
+
+    <table>
+        <tr> 
+            <td>    
+                <img src="./img/bulbasur.png" alt="Bulbasur">
+                <p>Bulbasur</p>
+            </td>
+            <td>
+                <img src="./img/ivysaur.png" alt="Ivisaur">
+                <p>Ivisaur</p>
+            </td>
+            <td>
+                <img src="./img/venusaur.png" alt="Venusaur">
+                <p>Venusaurr</p>
+            </td>
+            <td>
+                <img src="./img/charmander.png" alt="Charmander">
+                <p>Charmander</p>
+            </td>
+        </tr>
+
+        <tr id="con_imagen_fondo">
+            <td id="charmander">
+                <p>Charmaleon</p>
+            </td>
+            <td id="charizard">
+                <p>Charizard</p>
+            </td>
+            <td id="squirtle">
+                <p>Squirtle</p>
+            </td>
+            <td id="wartortle">
+                <p>Wartortle</p>
+            </td>
+        </tr>
+    </table>
+
+    <div id="formulario">
+        <form action="mailto:mail@">
+
+            <fieldset>
+                <legend> Datos personales</legend>
+
+                <div class="elemento">
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" name="nombre" required>
+                </div>
+            
+                <div class="elemento">
+                    <label for="email">email: </label>
+                    <input type="email" name="email" required>
+                </div>
+            
+                <div class="elemento">
+                    <label for="fecha">Fecha de nacimiento: </label>
+                    <input type="date" name="fecha">
+                </div>
+            </fieldset>
+           
+            <div class="enviar-borrar">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+            
+        </form>
+
+    </div>
+
+</body>
+
+</html>
